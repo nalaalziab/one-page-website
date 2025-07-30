@@ -1,0 +1,19 @@
+github: electerious
+custom: ['https://paypal.me/electerious', 'https://www.buymeacoffee.com/electerious']
+/one-page-website
+├── index.html
+├── css/
+│   └── style.css
+├── js/
+│   ├── lightbox.js
+│   └── main.js
+├── images/
+│   ├── image1.jpg
+│   ├── image2.jpg
+│   └── ...
+└── README.md
+git init
+git add .
+git commit -m "Initial commit with one-page website and lightbox functionality"
+git remote add origin [your-repository-url]
+git push -u origin main
