@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My One-Page Website</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>My Gallery</h1>
+  <div class="gallery">
+    <img src="image1.jpg" onclick="openModal(this)">
+    <img src="image2.jpg" onclick="openModal(this)">
+    <!-- Add more images -->
+  </div>
+
+  <!-- Lightbox Modal -->
+  <div id="lightbox-modal" class="modal">
+    <span class="close" onclick="closeModal()">&times;</span>
+    <img class="modal-content" id="modal-image">
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
